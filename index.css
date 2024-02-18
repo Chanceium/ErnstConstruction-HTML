@@ -3515,7 +3515,15 @@
     width: 100%;
   }
   .home-slider1 {
-    width: auto;
+    width: 100%;
+  }
+  .home-slider-container {
+    width: 100%;
+  }
+  .home-controls {
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: center;
   }
   .home-image05 {
     height: 400px;
@@ -3562,6 +3570,14 @@
     font-style: italic;
     font-family: Playfair Display;
     font-weight: 500;
+  }
+  .home-from1 {
+    width: 50%;
+    height: auto;
+  }
+  .home-create {
+    width: 100%;
+    height: auto;
   }
   .home-heading09 {
     color: rgb(255, 255, 255);
