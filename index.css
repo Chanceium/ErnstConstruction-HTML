@@ -2876,7 +2876,11 @@
   }
 }
 @media(max-width: 400px) {
+  .home-header {
+    padding: 0px;
+  }
   .home-navbar-interactive {
+    padding: var(--dl-space-space-unit);
     position: relative;
   }
   .home-image {
@@ -2918,6 +2922,11 @@
     fill: var(--dl-color-gray-white);
     width: 15%;
     height: auto;
+  }
+  .home-seperator {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10%;
   }
   .home-hero-content {
     gap: var(--dl-space-space-threeunits);
