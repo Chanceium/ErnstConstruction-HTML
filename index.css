@@ -945,7 +945,7 @@
   line-height: 27px;
 }
 .home-from {
-  width: 125px;
+  width: 40%;
   object-fit: cover;
 }
 .home-images {
@@ -1232,7 +1232,7 @@
   line-height: 27px;
 }
 .home-from1 {
-  width: 100px;
+  width: 40%;
   object-fit: cover;
 }
 .home-create {
@@ -3067,7 +3067,7 @@
     line-height: 18px;
   }
   .home-from {
-    width: auto;
+    width: 40%;
     height: 100%;
   }
   .home-image06 {
@@ -3115,7 +3115,7 @@
     line-height: 18px;
   }
   .home-from1 {
-    width: auto;
+    width: 40%;
     height: 100%;
   }
   .home-create {
@@ -3551,7 +3551,7 @@
     font-size: 36px;
   }
   .home-testimonial {
-    width: 100%;
+    width: auto;
   }
   .home-information {
     width: 100%;
@@ -3562,6 +3562,12 @@
   .home-from {
     width: 50%;
     height: auto;
+  }
+  .home-experience {
+    max-width: auto;
+  }
+  .home-content08 {
+    max-width: auto;
   }
   .home-heading08 {
     color: rgb(255, 255, 255);
