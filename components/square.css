@@ -1,0 +1,28 @@
+.square-square {
+  width: 50%;
+  display: flex;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  aspect-ratio: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-primary-300);
+}
+@media(max-width: 991px) {
+  .square-square {
+    top: -20px;
+    right: -20px;
+    width: 50%;
+  }
+}
+@media(max-width: 767px) {
+  .square-square {
+    width: 50%;
+  }
+}
+@media(max-width: 400px) {
+  .square-square {
+    width: 50%;
+  }
+}
