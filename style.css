@@ -225,7 +225,7 @@
     padding-bottom: var(--dl-space-space-unit);
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 400px) {
   .button {
     width: 100%;
   }
