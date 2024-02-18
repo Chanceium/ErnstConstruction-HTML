@@ -386,11 +386,13 @@
 .home-image1 {
   top: 0px;
   right: 0px;
-  width: 720px;
+  width: 55%;
   bottom: 0px;
   margin: auto;
+  opacity: 0.3;
   position: absolute;
   object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius4);
 }
 .home-objectives {
   width: 100%;
@@ -2470,7 +2472,7 @@
     line-height: 24px;
   }
   .home-image1 {
-    width: 300px;
+    width: 55%;
   }
   .home-objectives {
     padding-left: var(--dl-space-space-oneandhalfunits);
@@ -2945,6 +2947,9 @@
     height: auto;
     align-self: center;
   }
+  .home-mobile-menu {
+    background-color: var(--dl-color-gray-black);
+  }
   .home-hero-content {
     gap: var(--dl-space-space-threeunits);
   }
@@ -2959,7 +2964,8 @@
     text-align: center;
   }
   .home-image1 {
-    height: 400px;
+    width: 75%;
+    height: auto;
   }
   .home-text16 {
     font-size: 12px;
