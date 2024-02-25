@@ -219,17 +219,17 @@
   text-decoration: none;
   background-color: transparent;
 }
-.services-text {
-  font-size: 25px;
-  text-decoration: none;
-  background-color: transparent;
-}
 .services-navlink2 {
   font-size: 25px;
   text-decoration: none;
   background-color: transparent;
 }
-.services-text1 {
+.services-navlink3 {
+  font-size: 25px;
+  text-decoration: none;
+  background-color: transparent;
+}
+.services-text {
   font-size: 25px;
   text-decoration: none;
   background-color: transparent;
@@ -287,10 +287,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.services-navlink3 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 .services-navlink4 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -299,7 +295,11 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.services-text2 {
+.services-navlink6 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.services-text1 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -352,7 +352,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.services-text4 {
+.services-text3 {
   font-style: italic;
   font-family: "Playfair Display";
   font-weight: 500;
@@ -454,7 +454,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.services-text6 {
+.services-text5 {
   color: var(--dl-color-gray-white);
 }
 .services-icon-group1 {
@@ -517,18 +517,18 @@
   .services-icon {
     fill: var(--dl-color-gray-white);
   }
-  .services-navlink3 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
   .services-navlink4 {
-    margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
   .services-navlink5 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .services-text2 {
+  .services-navlink6 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .services-text1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -579,7 +579,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .services-text6 {
+  .services-text5 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -617,7 +617,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .services-text6 {
+  .services-text5 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }

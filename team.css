@@ -57,17 +57,17 @@
   text-decoration: none;
   background-color: transparent;
 }
-.team-text {
-  font-size: 25px;
-  text-decoration: none;
-  background-color: transparent;
-}
 .team-navlink2 {
   font-size: 25px;
   text-decoration: none;
   background-color: transparent;
 }
-.team-text1 {
+.team-navlink3 {
+  font-size: 25px;
+  text-decoration: none;
+  background-color: transparent;
+}
+.team-text {
   font-size: 25px;
   text-decoration: none;
   background-color: transparent;
@@ -125,10 +125,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.team-navlink3 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 .team-navlink4 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -137,7 +133,11 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.team-text2 {
+.team-navlink6 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.team-text1 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -229,19 +229,19 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.team-text3 {
+.team-text2 {
   color: var(--dl-color-gray-white);
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
   text-transform: uppercase;
 }
-.team-text4 {
+.team-text3 {
   color: var(--dl-color-gray-900);
   font-size: 1.5rem;
   font-weight: 300;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.team-text5 {
+.team-text4 {
   color: var(--dl-color-gray-700);
   z-index: 100;
   font-style: normal;
@@ -310,7 +310,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.team-text6 {
+.team-text5 {
   color: var(--dl-color-gray-white);
 }
 .team-icon-group1 {
@@ -380,18 +380,18 @@
   .team-icon {
     fill: var(--dl-color-gray-white);
   }
-  .team-navlink3 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
   .team-navlink4 {
-    margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
   .team-navlink5 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .team-text2 {
+  .team-navlink6 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .team-text1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -419,7 +419,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .team-text6 {
+  .team-text5 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -445,7 +445,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .team-text6 {
+  .team-text5 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
