@@ -111,7 +111,7 @@
   text-decoration: none;
   background-color: transparent;
 }
-.home-navlink3 {
+.home-text {
   font-size: 25px;
   text-decoration: none;
   background-color: transparent;
@@ -169,6 +169,10 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.home-navlink3 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .home-navlink4 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -177,11 +181,7 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.home-navlink6 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.home-navlink7 {
+.home-text01 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -256,15 +256,15 @@
   max-width: 790px;
   font-weight: 500;
 }
-.home-text {
+.home-text02 {
   font-style: normal;
 }
-.home-text01 {
+.home-text03 {
   font-style: italic;
   font-family: "Playfair Display";
   font-weight: 500;
 }
-.home-text02 {
+.home-text04 {
   font-style: normal;
 }
 .home-caption {
@@ -323,7 +323,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.home-text07 {
+.home-text09 {
   font-style: italic;
   font-family: "Playfair Display";
   font-weight: 500;
@@ -334,7 +334,7 @@
   max-width: 600px;
   line-height: 36px;
 }
-.home-text08 {
+.home-text10 {
   color: var(--dl-color-gray-700);
 }
 .home-button1 {
@@ -382,7 +382,7 @@
   justify-content: flex-start;
   border-top-width: 1px;
 }
-.home-text11 {
+.home-text13 {
   color: rgb(124, 124, 128);
   width: auto;
   font-size: 14px;
@@ -405,13 +405,13 @@
   align-items: flex-start;
   justify-content: space-between;
 }
-.home-text14 {
+.home-text16 {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
 }
-.home-text15 {
+.home-text17 {
   color: rgb(124, 124, 128);
   line-height: 24px;
 }
@@ -424,13 +424,13 @@
   align-self: stretch;
   justify-content: space-between;
 }
-.home-text16 {
+.home-text18 {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
 }
-.home-text17 {
+.home-text19 {
   color: rgb(124, 124, 128);
   line-height: 24px;
 }
@@ -443,13 +443,13 @@
   align-self: stretch;
   justify-content: space-between;
 }
-.home-text18 {
+.home-text20 {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
 }
-.home-text19 {
+.home-text21 {
   color: rgb(124, 124, 128);
   line-height: 24px;
 }
@@ -506,15 +506,15 @@
   font-size: 60px;
   font-weight: 400;
 }
-.home-text20 {
+.home-text22 {
   font-style: normal;
 }
-.home-text21 {
+.home-text23 {
   font-style: italic;
   font-family: "Playfair Display";
   font-weight: 500;
 }
-.home-text22 {
+.home-text24 {
   font-style: normal;
 }
 .home-caption2 {
@@ -539,14 +539,14 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text23 {
+.home-text25 {
   color: rgb(124, 124, 128);
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 5%;
   text-transform: uppercase;
 }
-.home-text24 {
+.home-text26 {
   color: rgb(255, 255, 255);
   font-style: italic;
   font-family: "Playfair Display";
@@ -694,7 +694,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.home-text26 {
+.home-text28 {
   font-style: italic;
   font-family: "Playfair Display";
   font-weight: 500;
@@ -734,7 +734,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text27 {
+.home-text29 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -759,7 +759,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text28 {
+.home-text30 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -784,7 +784,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text29 {
+.home-text31 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -809,7 +809,7 @@
   width: 12px;
   height: 12px;
 }
-.home-text30 {
+.home-text32 {
   color: rgb(255, 255, 255);
   line-height: 24px;
 }
@@ -828,14 +828,14 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text31 {
+.home-text33 {
   color: rgb(124, 124, 128);
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 5%;
   text-transform: uppercase;
 }
-.home-text32 {
+.home-text34 {
   color: rgb(255, 255, 255);
   font-style: italic;
   font-family: "Playfair Display";
@@ -909,11 +909,11 @@
   align-items: center;
   flex-direction: column;
 }
-.home-text33 {
+.home-text35 {
   color: var(--dl-color-gray-white);
   font-size: 3rem;
 }
-.home-text36 {
+.home-text38 {
   color: var(--dl-color-gray-500);
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
@@ -924,11 +924,11 @@
   align-items: center;
   flex-direction: column;
 }
-.home-text37 {
+.home-text39 {
   color: var(--dl-color-gray-white);
   font-size: 3rem;
 }
-.home-text39 {
+.home-text41 {
   color: var(--dl-color-gray-500);
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
@@ -939,11 +939,11 @@
   align-items: center;
   flex-direction: column;
 }
-.home-text40 {
+.home-text42 {
   color: var(--dl-color-gray-white);
   font-size: 3rem;
 }
-.home-text43 {
+.home-text45 {
   color: var(--dl-color-gray-500);
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
@@ -973,12 +973,12 @@
   text-align: center;
   font-weight: 500;
 }
-.home-text45 {
+.home-text47 {
   font-style: italic;
   font-family: "Playfair Display";
   font-weight: 500;
 }
-.home-navlink8 {
+.home-button3 {
   width: auto;
   text-decoration: none;
   background-color: #000000;
@@ -1040,7 +1040,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.home-text54 {
+.home-text56 {
   color: rgba(255, 255, 255, 0);
   width: 100%;
   font-style: normal;
@@ -1067,27 +1067,27 @@
   justify-content: space-between;
   border-bottom-width: 1px;
 }
-.home-text55 {
-  color: rgb(255, 255, 255);
-  width: 100%;
-  font-size: 14px;
-  text-align: center;
-  line-height: 32px;
-  padding-top: var(--dl-space-space-oneandhalfunits);
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
-  text-transform: uppercase;
-}
-.home-text56 {
-  color: rgb(255, 255, 255);
-  width: 100%;
-  font-size: 14px;
-  text-align: center;
-  line-height: 32px;
-  padding-top: var(--dl-space-space-oneandhalfunits);
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
-  text-transform: uppercase;
-}
 .home-text57 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  line-height: 32px;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  text-transform: uppercase;
+}
+.home-text58 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  line-height: 32px;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  text-transform: uppercase;
+}
+.home-text59 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 14px;
@@ -1109,7 +1109,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.home-text58 {
+.home-text60 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-style: normal;
@@ -1148,7 +1148,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.home-text59 {
+.home-text61 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-style: normal;
@@ -1187,7 +1187,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.home-text60 {
+.home-text62 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-style: normal;
@@ -1214,7 +1214,7 @@
   justify-content: space-between;
   border-bottom-width: 1px;
 }
-.home-text61 {
+.home-text63 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 14px;
@@ -1233,7 +1233,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.home-text62 {
+.home-text64 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-style: normal;
@@ -1260,14 +1260,14 @@
   justify-content: space-between;
   border-bottom-width: 1px;
 }
-.home-text63 {
+.home-text65 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 14px;
   text-align: center;
   line-height: 32px;
 }
-.home-text64 {
+.home-text66 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 14px;
@@ -1286,7 +1286,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.home-text65 {
+.home-text67 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-style: normal;
@@ -1313,7 +1313,7 @@
   justify-content: space-between;
   border-bottom-width: 1px;
 }
-.home-text66 {
+.home-text68 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 14px;
@@ -1332,7 +1332,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.home-text67 {
+.home-text69 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-style: normal;
@@ -1371,7 +1371,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.home-text68 {
+.home-text70 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-style: normal;
@@ -1398,7 +1398,7 @@
   justify-content: space-between;
   border-bottom-width: 1px;
 }
-.home-text69 {
+.home-text71 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 14px;
@@ -1523,7 +1523,7 @@
   padding-left: var(--dl-space-space-fiveunits);
   padding-right: var(--dl-space-space-fiveunits);
 }
-.home-text74 {
+.home-text76 {
   font-style: italic;
   font-family: Playfair Display;
   font-weight: 500;
@@ -1736,7 +1736,7 @@
   width: 24px;
   height: 24px;
 }
-.home-button3 {
+.home-button4 {
   background-color: var(--dl-color-primary-100);
 }
 .home-faq {
@@ -1763,7 +1763,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.home-text80 {
+.home-text82 {
   font-style: italic;
   font-family: Playfair Display;
   font-weight: 500;
@@ -2026,7 +2026,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text82 {
+.home-text84 {
   color: var(--dl-color-gray-white);
 }
 .home-icon-group1 {
@@ -2090,7 +2090,7 @@
   .home-objective2 {
     flex: 1;
   }
-  .home-text19 {
+  .home-text21 {
     color: rgb(124, 124, 128);
     line-height: 24px;
   }
@@ -2100,7 +2100,7 @@
   .home-testimonial {
     padding-bottom: var(--dl-space-space-threeunits);
   }
-  .home-text24 {
+  .home-text26 {
     max-width: 560px;
   }
   .home-images {
@@ -2121,13 +2121,13 @@
   .home-square1 {
     width: 50%;
   }
-  .home-text33 {
+  .home-text35 {
     text-align: center;
   }
-  .home-text37 {
+  .home-text39 {
     text-align: center;
   }
-  .home-text40 {
+  .home-text42 {
     text-align: center;
   }
   .home-content05 {
@@ -2141,7 +2141,7 @@
   .home-headers {
     flex: 0;
   }
-  .home-text54 {
+  .home-text56 {
     color: rgba(255, 255, 255, 0);
     width: 0px;
     font-style: normal;
@@ -2159,7 +2159,7 @@
     flex: 0 0 auto;
     width: 100%;
   }
-  .home-text58 {
+  .home-text60 {
     padding-top: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-unit);
     border-bottom-width: 0px;
@@ -2177,7 +2177,7 @@
     flex: 0 0 auto;
     width: 100%;
   }
-  .home-text59 {
+  .home-text61 {
     width: 100%;
     padding-top: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-unit);
@@ -2196,7 +2196,7 @@
     flex: 0 0 auto;
     width: 100%;
   }
-  .home-text60 {
+  .home-text62 {
     padding-top: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-unit);
     border-bottom-width: 0px;
@@ -2214,7 +2214,7 @@
     flex: 0 0 auto;
     width: 100%;
   }
-  .home-text62 {
+  .home-text64 {
     padding-top: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-unit);
     border-bottom-width: 0px;
@@ -2232,7 +2232,7 @@
     flex: 0 0 auto;
     width: 100%;
   }
-  .home-text65 {
+  .home-text67 {
     padding-top: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-unit);
     border-bottom-width: 0px;
@@ -2250,7 +2250,7 @@
     flex: 0 0 auto;
     width: 100%;
   }
-  .home-text67 {
+  .home-text69 {
     padding-top: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-unit);
     border-bottom-width: 0px;
@@ -2268,7 +2268,7 @@
     flex: 0 0 auto;
     width: 100%;
   }
-  .home-text68 {
+  .home-text70 {
     padding-top: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-unit);
     border-bottom-width: 0px;
@@ -2282,7 +2282,7 @@
   .home-heading6 {
     color: rgb(255, 255, 255);
   }
-  .home-text71 {
+  .home-text73 {
     font-style: italic;
     font-family: Playfair Display;
     font-weight: 500;
@@ -2456,18 +2456,18 @@
   .home-icon {
     fill: var(--dl-color-gray-white);
   }
+  .home-navlink3 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
   .home-navlink4 {
+    margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-navlink5 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-navlink6 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .home-navlink7 {
+  .home-text01 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -2537,7 +2537,7 @@
     font-size: 16px;
     line-height: 24px;
   }
-  .home-text23 {
+  .home-text25 {
     font-size: 12px;
     line-height: 18px;
   }
@@ -2588,7 +2588,7 @@
     font-size: 16px;
     line-height: 24px;
   }
-  .home-text31 {
+  .home-text33 {
     font-size: 12px;
     line-height: 18px;
   }
@@ -2616,13 +2616,13 @@
     align-self: center;
     grid-template-columns: 1fr;
   }
-  .home-text36 {
+  .home-text38 {
     text-align: center;
   }
-  .home-text39 {
+  .home-text41 {
     text-align: center;
   }
-  .home-text43 {
+  .home-text45 {
     text-align: center;
   }
   .home-content05 {
@@ -2653,32 +2653,25 @@
     font-size: 16px;
     line-height: 24px;
   }
-  .home-text55 {
-    font-size: 12px;
-    line-height: 14px;
-  }
-  .home-text56 {
-    font-size: 12px;
-    line-height: 14px;
-  }
   .home-text57 {
     font-size: 12px;
     line-height: 14px;
   }
   .home-text58 {
     font-size: 12px;
-    line-height: 18px;
+    line-height: 14px;
   }
   .home-text59 {
     font-size: 12px;
-    line-height: 18px;
+    line-height: 14px;
   }
   .home-text60 {
     font-size: 12px;
     line-height: 18px;
   }
   .home-text61 {
-    line-height: 21px;
+    font-size: 12px;
+    line-height: 18px;
   }
   .home-text62 {
     font-size: 12px;
@@ -2688,11 +2681,11 @@
     line-height: 21px;
   }
   .home-text64 {
-    line-height: 21px;
-  }
-  .home-text65 {
     font-size: 12px;
     line-height: 18px;
+  }
+  .home-text65 {
+    line-height: 21px;
   }
   .home-text66 {
     line-height: 21px;
@@ -2702,10 +2695,17 @@
     line-height: 18px;
   }
   .home-text68 {
+    line-height: 21px;
+  }
+  .home-text69 {
     font-size: 12px;
     line-height: 18px;
   }
-  .home-text69 {
+  .home-text70 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .home-text71 {
     line-height: 21px;
   }
   .home-data {
@@ -2954,7 +2954,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text82 {
+  .home-text84 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -2987,7 +2987,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text82 {
+  .home-text84 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
@@ -3062,21 +3062,21 @@
     width: 75%;
     height: auto;
   }
-  .home-text11 {
-    font-size: 12px;
-    line-height: 18px;
-  }
-  .home-text12 {
+  .home-text13 {
     font-size: 12px;
     line-height: 18px;
   }
   .home-text14 {
-    font-size: 18px;
+    font-size: 12px;
+    line-height: 18px;
   }
   .home-text16 {
     font-size: 18px;
   }
   .home-text18 {
+    font-size: 18px;
+  }
+  .home-text20 {
     font-size: 18px;
   }
   .home-growth {
@@ -3116,7 +3116,7 @@
   .home-heading3 {
     color: rgb(255, 255, 255);
   }
-  .home-text26 {
+  .home-text28 {
     font-style: italic;
     font-family: Playfair Display;
     font-weight: 500;
@@ -3135,7 +3135,7 @@
     text-align: center;
     font-weight: 500;
   }
-  .home-navlink8 {
+  .home-button3 {
     text-align: center;
   }
   .home-header08 {
@@ -3146,12 +3146,12 @@
     color: rgb(255, 255, 255);
     text-align: center;
   }
-  .home-text52 {
+  .home-text54 {
     font-style: italic;
     font-family: Playfair Display;
     font-weight: 500;
   }
-  .home-button3 {
+  .home-button4 {
     text-align: center;
   }
   .home-header15 {

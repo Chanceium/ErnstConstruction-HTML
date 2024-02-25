@@ -5,6 +5,7 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  background-color: var(--dl-color-gray-black);
 }
 .contact-header {
   width: 100%;
@@ -61,7 +62,7 @@
   text-decoration: none;
   background-color: transparent;
 }
-.contact-navlink3 {
+.contact-text {
   font-size: 25px;
   text-decoration: none;
   background-color: transparent;
@@ -119,6 +120,10 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.contact-navlink3 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .contact-navlink4 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -127,11 +132,7 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.contact-navlink6 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.contact-navlink7 {
+.contact-text1 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -149,6 +150,32 @@
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
+.contact-seperator {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 140px;
+  justify-content: center;
+  background-color: var(--dl-color-primary-300);
+}
+.contact-container1 {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-container2 {
+  width: 75%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
 .contact-footer {
   width: 100%;
   display: flex;
@@ -160,7 +187,7 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.contact-container1 {
+.contact-container3 {
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
   align-items: center;
@@ -202,7 +229,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.contact-container2 {
+.contact-container4 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -210,7 +237,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.contact-text {
+.contact-text2 {
   color: var(--dl-color-gray-white);
 }
 .contact-icon-group1 {
@@ -265,20 +292,38 @@
   .contact-icon {
     fill: var(--dl-color-gray-white);
   }
+  .contact-navlink3 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
   .contact-navlink4 {
+    margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
   .contact-navlink5 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .contact-navlink6 {
+  .contact-text1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .contact-navlink7 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
+  .contact-seperator {
+    height: 120px;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .contact-container1 {
+    height: 120px;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .contact-container2 {
+    height: 120px;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-threeunits);
   }
   .contact-footer {
     padding-left: var(--dl-space-space-twounits);
@@ -293,12 +338,12 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .contact-container2 {
+  .contact-container4 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .contact-text {
+  .contact-text2 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -319,12 +364,12 @@
     margin-top: var(--dl-space-space-oneandhalfunits);
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .contact-container2 {
+  .contact-container4 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .contact-text {
+  .contact-text2 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
@@ -376,5 +421,23 @@
     fill: var(--dl-color-gray-white);
     width: 15%;
     height: auto;
+  }
+  .contact-seperator {
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10%;
+  }
+  .contact-container1 {
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10%;
+  }
+  .contact-container2 {
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10%;
   }
 }
