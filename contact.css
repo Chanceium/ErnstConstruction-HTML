@@ -57,12 +57,17 @@
   text-decoration: none;
   background-color: transparent;
 }
+.contact-text {
+  font-size: 25px;
+  text-decoration: none;
+  background-color: transparent;
+}
 .contact-navlink2 {
   font-size: 25px;
   text-decoration: none;
   background-color: transparent;
 }
-.contact-text {
+.contact-text1 {
   font-size: 25px;
   text-decoration: none;
   background-color: transparent;
@@ -132,7 +137,7 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.contact-text1 {
+.contact-text2 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -198,7 +203,7 @@
   display: contents;
 }
 .contact-image1 {
-  width: 40%;
+  width: 50%;
   height: auto;
   margin-bottom: var(--dl-space-space-twounits);
   text-decoration: none;
@@ -237,7 +242,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.contact-text2 {
+.contact-text3 {
   color: var(--dl-color-gray-white);
 }
 .contact-icon-group1 {
@@ -303,7 +308,7 @@
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .contact-text1 {
+  .contact-text2 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -343,7 +348,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .contact-text2 {
+  .contact-text3 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -369,7 +374,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .contact-text2 {
+  .contact-text3 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
