@@ -206,12 +206,14 @@
 }
 
 
-.Content {
-  font-size: 16px;
-  font-family: Inter;
-  font-weight: 400;
-  line-height: 1.15;
-  text-transform: none;
+
+.Anchor {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: capitalize;
   text-decoration: none;
 }
 .Section-Text {
@@ -219,6 +221,32 @@
   font-family: Raleway;
   font-weight: 400;
   line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.Card-Text {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.Card-Heading {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.Section-Heading {
+  font-size: 48px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.22;
   text-transform: none;
   text-decoration: none;
 }
@@ -231,20 +259,11 @@
   text-transform: none;
   text-decoration: none;
 }
-.Anchor {
-  font-size: 18px;
-  font-style: normal;
-  font-family: Raleway;
-  font-weight: 700;
-  line-height: 1.55;
-  text-transform: capitalize;
-  text-decoration: none;
-}
-.Section-Heading {
-  font-size: 48px;
-  font-family: Montserrat;
-  font-weight: 700;
-  line-height: 1.22;
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
   text-transform: none;
   text-decoration: none;
 }
