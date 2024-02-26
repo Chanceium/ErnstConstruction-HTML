@@ -172,14 +172,161 @@
   flex-direction: column;
   justify-content: center;
 }
-.contact-container2 {
-  width: 75%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 100%;
+.contact-get-in-touch {
+  width: 100%;
   display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  margin-top: var(--dl-space-space-fiveunits);
   align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  justify-content: flex-start;
+}
+.contact-text3 {
+  color: var(--dl-color-gray-white);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.contact-content-container {
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  margin-top: var(--dl-space-space-fiveunits);
+  align-items: center;
+  flex-direction: row;
   justify-content: center;
+}
+.contact-form {
+  width: 40%;
+  display: flex;
+  align-self: stretch;
+  padding-top: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-tenunits);
+  padding-right: var(--dl-space-space-tenunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+}
+.contact-heading {
+  color: var(--dl-color-gray-white);
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.contact-name {
+  width: 100%;
+  border: none;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.contact-email {
+  width: 100%;
+  border: none;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.contact-message {
+  width: 100%;
+  border: none;
+  height: 140px;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.contact-cta-btn {
+  color: var(--dl-color-gray-black);
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 700;
+  line-height: 1.55;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  padding-left: var(--dl-space-space-tenunits);
+  border-radius: var(--dl-radius-radius-radius24);
+  padding-right: var(--dl-space-space-tenunits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-transform: capitalize;
+  text-decoration: none;
+  background-color: var(--dl-color-primary-100);
+}
+.contact-locations-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+}
+.contact-location-1 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+}
+.contact-heading1 {
+  color: var(--dl-color-gray-white);
+  font-size: 24px;
+  font-style: normal;
+  font-family: "Roboto";
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-doubleunit);
+}
+.contact-adress {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+}
+.contact-icon10 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.contact-text4 {
+  color: var(--dl-color-gray-white);
+}
+.contact-email1 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+}
+.contact-icon12 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.contact-text5 {
+  color: var(--dl-color-gray-white);
+}
+.contact-phone {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+}
+.contact-icon14 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.contact-text6 {
+  color: var(--dl-color-gray-white);
 }
 .contact-footer {
   width: 100%;
@@ -192,7 +339,7 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.contact-container3 {
+.contact-container2 {
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
   align-items: center;
@@ -234,7 +381,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.contact-container4 {
+.contact-container3 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -242,7 +389,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.contact-text3 {
+.contact-text7 {
   color: var(--dl-color-gray-white);
 }
 .contact-icon-group1 {
@@ -254,7 +401,7 @@
 .contact-link3 {
   display: contents;
 }
-.contact-icon10 {
+.contact-icon16 {
   fill: var(--dl-color-gray-white);
   width: var(--dl-size-size-xsmall);
   height: auto;
@@ -264,7 +411,7 @@
 .contact-link4 {
   display: contents;
 }
-.contact-icon12 {
+.contact-icon18 {
   fill: var(--dl-color-gray-white);
   width: var(--dl-size-size-xsmall);
   height: auto;
@@ -274,7 +421,7 @@
 .contact-link5 {
   display: contents;
 }
-.contact-icon14 {
+.contact-icon20 {
   fill: var(--dl-color-gray-white);
   width: var(--dl-size-size-xsmall);
   height: auto;
@@ -283,6 +430,14 @@
 @media(max-width: 1600px) {
   .contact-mobile-menu {
     background-color: var(--dl-color-gray-black);
+  }
+}
+@media(max-width: 991px) {
+  .contact-locations-container {
+    flex-wrap: wrap;
+  }
+  .contact-location-1 {
+    margin-bottom: var(--dl-space-space-tripleunit);
   }
 }
 @media(max-width: 767px) {
@@ -324,11 +479,13 @@
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-threeunits);
   }
-  .contact-container2 {
-    height: 120px;
-    padding-left: var(--dl-space-space-oneandhalfunits);
-    padding-right: var(--dl-space-space-oneandhalfunits);
-    padding-bottom: var(--dl-space-space-threeunits);
+  .contact-content-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .contact-locations-container {
+    flex-direction: row;
+    justify-content: center;
   }
   .contact-footer {
     padding-left: var(--dl-space-space-twounits);
@@ -343,12 +500,12 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .contact-container4 {
+  .contact-container3 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .contact-text3 {
+  .contact-text7 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -362,6 +519,16 @@
   .contact-mobile-menu {
     padding: 16px;
   }
+  .contact-content-container {
+    padding-left: 0px;
+  }
+  .contact-heading {
+    text-align: center;
+  }
+  .contact-location-1 {
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
   .contact-footer {
     padding: var(--dl-space-space-unit);
   }
@@ -369,12 +536,12 @@
     margin-top: var(--dl-space-space-oneandhalfunits);
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .contact-container4 {
+  .contact-container3 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .contact-text3 {
+  .contact-text7 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
@@ -434,12 +601,6 @@
     padding-bottom: 10%;
   }
   .contact-container1 {
-    height: auto;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 10%;
-  }
-  .contact-container2 {
     height: auto;
     padding-left: 0px;
     padding-right: 0px;

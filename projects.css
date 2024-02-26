@@ -36,9 +36,7 @@
 
 @media(max-width: 767px) {
   .seperator-seperator {
-    margin-top: var(--dl-space-space-halfunit);
     padding-left: var(--dl-space-space-oneandhalfunits);
-    margin-bottom: var(--dl-space-space-halfunit);
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-halfunit);
   }
@@ -48,7 +46,6 @@
     margin-top: var(--dl-space-space-twounits);
     padding-top: var(--dl-space-space-halfunit);
     margin-bottom: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-halfunit);
   }
   .seperator-root-class-name5 {
     width: 75%;
