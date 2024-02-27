@@ -11,14 +11,12 @@
   object-fit: cover;
 }
 .gallery-card13-text {
+  color: var(--dl-color-gray-white);
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
+  font-family: "Jost";
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
-}
-.gallery-card13-text1 {
-  color: var(--dl-color-gray-500);
-  align-self: flex-start;
 }
 
 

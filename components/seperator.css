@@ -33,7 +33,16 @@
   width: 100%;
   margin-top: var(--dl-space-space-threeunits);
 }
+.seperator-root-class-name7 {
+  max-width: auto;
+}
 
+.seperator-root-class-name9 {
+  max-width: auto;
+}
+.seperator-root-class-name10 {
+  width: 75%;
+}
 @media(max-width: 767px) {
   .seperator-seperator {
     padding-left: var(--dl-space-space-oneandhalfunits);
