@@ -452,7 +452,7 @@
   display: contents;
 }
 .footer-image {
-  width: 50%;
+  width: 10%;
   height: auto;
   margin-bottom: var(--dl-space-space-twounits);
   text-decoration: none;
