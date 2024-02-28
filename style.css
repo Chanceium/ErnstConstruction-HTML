@@ -302,16 +302,16 @@
     padding-right: var(--dl-space-space-twounits);
   }
 }
-@media(max-width: 479px) {
-  .header {
-    padding: var(--dl-space-space-unit);
-  }
-}
-@media(max-width: 400px) {
+@media(max-width: 500px) {
   .button {
     width: 100%;
   }
   .header {
     position: relative;
+  }
+}
+@media(max-width: 479px) {
+  .header {
+    padding: var(--dl-space-space-unit);
   }
 }
