@@ -239,11 +239,8 @@
     align-self: center;
   }
   .header-mobile-menu {
-    top: 0px;
-    right: 0px;
     width: 100%;
     height: auto;
-    padding: 0px;
     position: absolute;
     align-self: stretch;
     align-items: flex-end;

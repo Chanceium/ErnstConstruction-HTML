@@ -239,11 +239,8 @@
     align-self: center;
   }
   .header-mobile-menu {
-    top: 0px;
-    right: 0px;
     width: 100%;
     height: auto;
-    padding: 0px;
     position: absolute;
     align-self: stretch;
     align-items: flex-end;
@@ -1096,7 +1093,22 @@
   }
 }
 @media(max-width: 500px) {
+  .team-image1 {
+    width: 90%;
+    padding-top: var(--dl-space-space-threeunits);
+  }
+  .team-person-info {
+    align-items: center;
+  }
+  .team-text {
+    align-self: flex-start;
+    text-align: center;
+  }
+  .team-text08 {
+    padding-top: var(--dl-space-space-twounits);
+  }
   .team-sub-content {
+    gap: 0;
     align-self: center;
     align-items: center;
     flex-direction: column;
@@ -1107,6 +1119,9 @@
     align-self: center;
     align-items: flex-start;
     justify-content: flex-start;
+  }
+  .team-sub-title1 {
+    padding-top: var(--dl-space-space-unit);
   }
   .team-questions {
     width: 100%;

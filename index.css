@@ -239,11 +239,8 @@
     align-self: center;
   }
   .header-mobile-menu {
-    top: 0px;
-    right: 0px;
     width: 100%;
     height: auto;
-    padding: 0px;
     position: absolute;
     align-self: stretch;
     align-items: flex-end;
@@ -673,6 +670,28 @@
   font-family: "Jost";
   line-height: 36px;
 }
+.home-link {
+  display: contents;
+}
+.home-caption1 {
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  max-width: 600px;
+  font-family: "Jost";
+  line-height: 36px;
+  text-decoration: none;
+}
+.home-link1 {
+  display: contents;
+}
+.home-caption2 {
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  max-width: 600px;
+  font-family: "Jost";
+  line-height: 36px;
+  text-decoration: none;
+}
 .home-button {
   background-color: var(--dl-color-primary-100);
 }
@@ -725,7 +744,7 @@
   font-family: "Playfair Display";
   font-weight: 500;
 }
-.home-caption1 {
+.home-caption3 {
   color: var(--dl-color-gray-500);
   font-size: 28px;
   max-width: 600px;
@@ -966,7 +985,7 @@
 .home-text28 {
   font-style: normal;
 }
-.home-caption2 {
+.home-caption4 {
   color: rgb(124, 124, 128);
   width: 100%;
   font-size: 28px;
@@ -1156,7 +1175,7 @@
   font-family: "Playfair Display";
   font-weight: 500;
 }
-.home-caption3 {
+.home-caption5 {
   color: rgb(124, 124, 128);
   width: 100%;
   font-size: 28px;
@@ -1492,7 +1511,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.home-caption4 {
+.home-caption6 {
   color: rgb(124, 124, 128);
   width: 100%;
   font-size: 24px;
@@ -1919,7 +1938,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.home-caption5 {
+.home-caption7 {
   color: rgb(124, 124, 128);
   width: 100%;
   font-size: 24px;
@@ -2853,7 +2872,7 @@
     font-size: 36px;
     line-height: 42px;
   }
-  .home-caption1 {
+  .home-caption3 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -2891,7 +2910,7 @@
   .home-heading2 {
     font-size: 40px;
   }
-  .home-caption2 {
+  .home-caption4 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -2942,7 +2961,7 @@
   .home-heading3 {
     font-size: 40px;
   }
-  .home-caption3 {
+  .home-caption5 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -3002,7 +3021,7 @@
   .home-heading5 {
     font-size: 40px;
   }
-  .home-caption4 {
+  .home-caption6 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -3070,7 +3089,7 @@
   .home-heading6 {
     font-size: 36px;
   }
-  .home-caption5 {
+  .home-caption7 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -3304,6 +3323,14 @@
     font-size: 36px;
   }
   .home-caption {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .home-caption1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .home-caption2 {
     font-size: 16px;
     line-height: 24px;
   }
