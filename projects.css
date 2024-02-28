@@ -81,9 +81,8 @@
   top: 0px;
   right: 0px;
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
-  padding: 32px;
   z-index: 100;
   position: absolute;
   transform: translateY(-100%);
@@ -647,18 +646,25 @@
   font-family: "Playfair Display";
   font-weight: 500;
 }
+.projects-slideshow {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
 .projects-sliders {
   gap: var(--dl-space-space-fourunits);
-  width: 70%;
+  width: 100%;
   display: flex;
-  align-items: stretch;
+  align-items: center;
   flex-direction: row;
   justify-content: center;
 }
 .projects-grid {
-  width: 70%;
+  width: 50%;
   display: flex;
-  align-items: stretch;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
 }
@@ -724,9 +730,9 @@
   font-family: "Jost";
 }
 .projects-grid1 {
-  width: 70%;
+  width: 50%;
   display: flex;
-  align-items: stretch;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
 }
@@ -777,16 +783,16 @@
 }
 .projects-sliders1 {
   gap: var(--dl-space-space-fourunits);
-  width: 70%;
+  width: 100%;
   display: flex;
-  align-items: stretch;
+  align-items: center;
   flex-direction: row;
   justify-content: center;
 }
 .projects-grid2 {
-  width: 70%;
+  width: 50%;
   display: flex;
-  align-items: stretch;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
 }
@@ -794,13 +800,14 @@
   width: 100%;
   height: 100%;
   display: inline-block;
+  align-self: center;
 }
 .projects-slider-slide08 {
   display: flex;
 }
 .projects-image08 {
   width: 100%;
-  height: 100%;
+  align-self: stretch;
   object-fit: cover;
 }
 .projects-slider-slide09 {
@@ -828,9 +835,9 @@
   font-family: "Jost";
 }
 .projects-grid3 {
-  width: 70%;
+  width: 50%;
   display: flex;
-  align-items: stretch;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
 }
@@ -992,6 +999,9 @@
     background-color: var(--dl-color-gray-black);
   }
   .projects-title {
+    width: 75%;
+  }
+  .projects-slideshow {
     width: 75%;
   }
   .projects-sliders {
