@@ -645,7 +645,7 @@
   flex-shrink: 0;
   flex-direction: row;
 }
-.team-icon02 {
+.team-icon2 {
   fill: var(--dl-color-primary-100);
   width: 24px;
   height: 24px;
@@ -672,7 +672,7 @@
   flex-shrink: 0;
   flex-direction: row;
 }
-.team-icon04 {
+.team-icon4 {
   fill: var(--dl-color-primary-100);
   width: 24px;
   height: 24px;
@@ -746,6 +746,46 @@
   font-stretch: normal;
   text-decoration: none;
 }
+.team-text13 {
+  color: var(--dl-color-gray-500);
+  font-size: 22px;
+  font-family: "Jost";
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: none;
+}
+.team-text16 {
+  color: var(--dl-color-gray-500);
+  font-size: 22px;
+  font-family: "Jost";
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: none;
+}
+.team-text19 {
+  color: var(--dl-color-gray-500);
+  font-size: 22px;
+  font-family: "Jost";
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: none;
+}
+.team-text22 {
+  color: var(--dl-color-gray-500);
+  font-size: 22px;
+  font-family: "Jost";
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: none;
+}
+.team-text24 {
+  color: var(--dl-color-gray-500);
+  font-size: 22px;
+  font-family: "Jost";
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: none;
+}
 .team-sub-content {
   gap: 95px;
   display: flex;
@@ -764,198 +804,12 @@
 .team-sub-title1 {
   gap: 12px;
   width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-self: flex-start;
   align-items: flex-start;
   flex-shrink: 0;
   flex-direction: column;
-}
-.team-text18 {
-  color: var(--dl-color-gray-white);
-  height: auto;
-  font-size: 25px;
-  font-style: Regular;
-  text-align: center;
-  font-family: "Jost";
-  font-weight: 400;
-  line-height: 150%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.team-text20 {
-  font-style: italic;
-  font-family: "Playfair Display";
-  font-weight: 500;
-}
-.team-text22 {
-  color: var(--dl-color-gray-500);
-  width: auto;
-  height: auto;
-  font-size: 22px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Jost";
-  font-weight: 400;
-  line-height: 150%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.team-questions {
-  gap: 19px;
-  width: 529px;
-  display: flex;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
-.team-title {
-  gap: 12px;
-  width: auto;
-  display: flex;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
-.team-text33 {
-  color: var(--dl-color-gray-white);
-  height: auto;
-  font-size: 25px;
-  font-style: Regular;
-  text-align: center;
-  font-family: "Jost";
-  font-weight: 400;
-  line-height: 150%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.team-text34 {
-  color: var(--dl-color-gray-500);
-  width: auto;
-  height: auto;
-  font-size: 22px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Jost";
-  font-weight: 400;
-  line-height: 150%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.team-sub-content1 {
-  gap: 30px;
-  width: auto;
-  display: flex;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
-.team-frame1 {
-  gap: 10px;
-  width: auto;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-  border-radius: 18px;
-  flex-direction: column;
-  background-color: var(--dl-color-primary-100);
-}
-.team-content {
-  gap: 15px;
-  width: auto;
-  display: flex;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
-.team-sub-title2 {
-  gap: 170px;
-  width: auto;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-.team-text36 {
-  color: var(--dl-color-gray-black);
-  height: auto;
-  font-size: 18px;
-  font-style: SemiBold;
-  text-align: center;
-  font-family: "Jost";
-  font-weight: 600;
-  line-height: 125%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.team-icon06 {
-  width: auto;
-  height: var(--dl-size-size-small);
-}
-.team-text38 {
-  color: var(--dl-color-gray-500);
-  height: auto;
-  margin: var(--dl-space-space-unit);
-  font-size: 22px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Jost";
-  font-weight: 400;
-  line-height: 150%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.team-frame11 {
-  gap: 10px;
-  width: auto;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-  border-radius: 18px;
-  flex-direction: column;
-  background-color: var(--dl-color-primary-100);
-}
-.team-content1 {
-  gap: 15px;
-  width: auto;
-  display: flex;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
-.team-sub-title3 {
-  gap: 170px;
-  width: auto;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-.team-text40 {
-  color: var(--dl-color-gray-black);
-  height: auto;
-  font-size: 18px;
-  font-style: SemiBold;
-  text-align: center;
-  font-family: "Jost";
-  font-weight: 600;
-  line-height: 125%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.team-icon08 {
-  width: auto;
-  height: var(--dl-size-size-small);
-}
-.team-text42 {
-  color: var(--dl-color-gray-500);
-  height: auto;
-  margin: var(--dl-space-space-unit);
-  font-size: 22px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Jost";
-  font-weight: 400;
-  line-height: 150%;
-  font-stretch: normal;
-  text-decoration: none;
 }
 @media(max-width: 1200px) {
   .team-image {
@@ -991,37 +845,10 @@
   .team-pathway {
     width: 50%;
   }
-  .team-questions {
-    width: 50%;
-  }
 }
 @media(max-width: 991px) {
   .team-image1 {
     height: auto;
-  }
-  .team-sub-content1 {
-    width: auto;
-    height: auto;
-  }
-  .team-frame1 {
-    width: auto;
-    height: auto;
-  }
-  .team-content {
-    width: auto;
-  }
-  .team-sub-title2 {
-    width: auto;
-  }
-  .team-frame11 {
-    width: auto;
-    height: auto;
-  }
-  .team-content1 {
-    width: auto;
-  }
-  .team-sub-title3 {
-    width: auto;
   }
 }
 @media(max-width: 767px) {
@@ -1030,66 +857,6 @@
   }
   .team-sub-content {
     flex-direction: row;
-  }
-  .team-title {
-    width: auto;
-  }
-  .team-text34 {
-    width: auto;
-  }
-  .team-sub-content1 {
-    width: auto;
-    align-self: flex-start;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .team-frame1 {
-    width: auto;
-    align-self: flex-start;
-    align-items: center;
-    justify-content: center;
-  }
-  .team-content {
-    width: auto;
-  }
-  .team-sub-title2 {
-    width: auto;
-  }
-  .team-text36 {
-    color: var(--dl-color-gray-black);
-    width: auto;
-  }
-  .team-icon06 {
-    width: auto;
-    height: var(--dl-size-size-medium);
-  }
-  .team-text38 {
-    color: var(--dl-color-gray-500);
-    width: auto;
-  }
-  .team-frame11 {
-    width: auto;
-    align-self: flex-start;
-    align-items: center;
-    justify-content: center;
-  }
-  .team-content1 {
-    width: auto;
-  }
-  .team-sub-title3 {
-    width: auto;
-  }
-  .team-text40 {
-    color: var(--dl-color-gray-black);
-    width: auto;
-  }
-  .team-icon08 {
-    width: auto;
-    height: var(--dl-size-size-medium);
-  }
-  .team-text42 {
-    color: var(--dl-color-gray-500);
-    width: auto;
   }
 }
 @media(max-width: 500px) {
@@ -1122,25 +889,5 @@
   }
   .team-sub-title1 {
     padding-top: var(--dl-space-space-unit);
-  }
-  .team-questions {
-    width: 100%;
-  }
-  .team-title {
-    align-self: center;
-  }
-  .team-text33 {
-    align-self: flex-start;
-  }
-  .team-sub-content1 {
-    align-self: center;
-  }
-  .team-frame1 {
-    align-items: flex-start;
-    justify-content: center;
-  }
-  .team-frame11 {
-    align-items: flex-start;
-    justify-content: center;
   }
 }
